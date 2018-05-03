@@ -1,0 +1,471 @@
+@import url("https://fonts.googleapis.com/css?family=Muli|Ovo");
+body {
+  background-image: url("../images/background_image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; }
+
+.content-box {
+  background-color: rgba(237, 241, 241, 0.5);
+  padding-bottom: 40px;
+  border-radius: 30px; }
+
+.center-panel {
+  margin-top: 20px; }
+
+.pillpadding {
+  padding-bottom: 20px; }
+
+h1,
+h2,
+h3,
+h4,
+.placeholder {
+  font-family: "Ovo", Times, serif;
+  color: #11345b; }
+
+p,
+label,
+.option,
+h5 {
+  font-family: "Muli", Helvetica, sans-serif;
+  color: #11345b; }
+
+.add {
+  font-family: "Muli", Helvetica, sans-serif;
+  color: #e18a1e; }
+
+.card-title {
+  font-family: "Ovo", Times, serif;
+  color: #11345b; }
+
+h1 {
+  text-align: left;
+  color: #11345b;
+  padding: 20px; }
+
+nav {
+  background-color: rgba(237, 241, 241, 0.5);
+  min-width: 100%; }
+
+h4 {
+  padding-top: 10px; }
+
+.login-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding: 30px;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  background-color: rgba(237, 241, 241, 0.5); }
+
+.card-title {
+  font-family: "Ovo", Times, serif;
+  color: #11345b; }
+
+.LoginText,
+p,
+.card,
+.col-md-6,
+h5,
+.webwidget_rating_simple,
+.col,
+.Login {
+  text-align: center; }
+
+.link {
+  text-decoration-color: white; }
+
+form {
+  margin-top: 20px;
+  text-align: center; }
+
+.Welcome {
+  padding-top: 20px; }
+
+.card-content {
+  width: 100%; }
+
+.bigfont {
+  font-size: 1em;
+  font-family: "Muli";
+  color: #11345b; }
+
+.img-card-top {
+  width: auto; }
+
+.card-body-text {
+  padding: 5px; }
+
+.ratingprogressbar,
+.col-md-6 {
+  margin-bottom: 20px; }
+
+.progressbars {
+  margin-bottom: 100px; }
+
+.progress {
+  height: 30px; }
+
+.badge {
+  padding: 10px; }
+
+#share {
+  text-align: right; }
+
+#share {
+  padding-top: 50px;
+  color: #e18a1e; }
+
+#txtgoals, #txtcopingSkills, #jujubee1, #jujubee2 {
+  border-radius: 15px; }
+
+.ratingprogressbar {
+  margin-bottom: 70px; }
+
+#jesssmith {
+  width: 100%;
+  height: auto; }
+
+.star-center {
+  padding-left: 40%; }
+
+a {
+  color: #11345b; }
+
+/*styling for optgroups*/
+.SlectBox {
+  width: 200px;
+  padding: 5px 8px; }
+
+/*this is applied on that hidden select. DO NOT USE display:none; or visiblity:hidden; and Do not override any of these properties. */
+.SelectClass {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border: none;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  -khtml-opacity: 0; }
+
+.SumoSelect > .optWrapper > .options > li label,
+.SumoSelect > .CaptionCont {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -o-user-select: none;
+  -khtml-user-select: none; }
+
+.SumoSelect {
+  position: relative;
+  display: inline-block;
+  outline: none; }
+
+.SumoSelect:focus > .CaptionCont,
+.SumoSelect:hover > .CaptionCont {
+  border-color: #7799d0;
+  box-shadow: 0 0 2px #7799d0; }
+
+.SumoSelect > .CaptionCont {
+  position: relative;
+  min-height: 14px;
+  border: 1px solid #a4a4a4;
+  border-radius: 2px;
+  background-color: #fff; }
+
+.SumoSelect > .CaptionCont > span {
+  display: block;
+  overflow: hidden;
+  padding-right: 30px;
+  cursor: default;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
+/*placeholder style*/
+.SumoSelect > .CaptionCont > span.placeholder {
+  font-style: italic;
+  color: #ccc; }
+
+.SumoSelect > .CaptionCont > label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 30px; }
+
+.SumoSelect > .CaptionCont > label > i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin: auto;
+  opacity: .8;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wMdBhAJ/fwnjwAAAGFJREFUKM9jYBh+gBFKuzEwMKQwMDB8xaOWlYGB4T4DA0MrsuapDAwM//HgNwwMDDbYTJuGQ8MHBgYGJ1xOYGNgYJiBpuEpAwODHSF/siDZ+ISBgcGClEDqZ2Bg8B6CkQsAPRga0cpRtDEAAAAASUVORK5CYII=");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.SumoSelect > .optWrapper {
+  position: absolute;
+  z-index: -100;
+  top: 30px;
+  left: 0;
+  visibility: hidden;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  -webkit-transition: opacity 200ms ease-out, top 200ms ease-out, visibility 200ms ease-out;
+  -moz-transition: opacity 200ms ease-out, top 200ms ease-out, visibility 200ms ease-out;
+  -ms-transition: opacity 200ms ease-out, top 200ms ease-out, visibility 200ms ease-out;
+  -o-transition: opacity 200ms ease-out, top 200ms ease-out, visibility 200ms ease-out;
+  transition: opacity 200ms ease-out, top 200ms ease-out, visibility 200ms ease-out;
+  opacity: 0;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.11); }
+
+.SumoSelect > .optWrapper.open {
+  z-index: 1000;
+  top: 35px;
+  visibility: visible;
+  opacity: 1; }
+
+.SumoSelect > .optWrapper > .options {
+  display: block;
+  overflow: auto;
+  /*Set the height of pop up here (only for desktop mode)*/
+  max-height: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-radius: 2px;
+  /*height*/ }
+
+.SumoSelect > .optWrapper.isFloating > .options {
+  max-height: 100%;
+  box-shadow: 0 0 100px #595959; }
+
+.SumoSelect > .optWrapper > .options > li {
+  position: relative;
+  padding: 6px 6px;
+  border-bottom: 1px solid #f3f3f3; }
+
+.SumoSelect > .optWrapper > .options > li:first-child {
+  border-radius: 2px 2px 0 0; }
+
+.SumoSelect > .optWrapper > .options > li:last-child {
+  border-bottom: none;
+  border-radius: 0 0 2px 2px; }
+
+.SumoSelect > .optWrapper > .options > li:hover {
+  background-color: #e4e4e4; }
+
+.SumoSelect > .optWrapper > .options > li.sel {
+  background-color: #a1c0e4; }
+
+.SumoSelect > .optWrapper > .options > li label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
+.SumoSelect > .optWrapper > .options > li span {
+  display: none; }
+
+/*Floating styles*/
+.SumoSelect > .optWrapper.isFloating {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  max-height: 90%;
+  margin: auto; }
+
+/*Hover*/
+/*.SumoSelect:hover > .CaptionCont > label { background-color: #F1F1F1; }*/
+/*disabled state*/
+.SumoSelect > .optWrapper > .options > li.disabled {
+  pointer-events: none;
+  background-color: inherit; }
+
+.SumoSelect > .optWrapper > .options > li.disabled * {
+  /* Good browsers */
+  opacity: .5;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=50)';
+  /* IE 5-7 */
+  filter: alpha(opacity=50);
+  /* Netscape */
+  -moz-opacity: .5;
+  /* Safari 1.x */
+  -khtml-opacity: .5; }
+
+/*styling for multiple select*/
+.SumoSelect > .optWrapper.multiple > .options > li {
+  padding-left: 35px;
+  cursor: pointer; }
+
+.SumoSelect > .optWrapper.multiple > .options > li span,
+.SumoSelect .select-all > span {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 30px; }
+
+.SumoSelect > .optWrapper.multiple > .options > li span i,
+.SumoSelect .select-all > span i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin: auto;
+  border: 1px solid #aeaeae;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.15); }
+
+.SumoSelect > .optWrapper > .MultiControls {
+  display: none;
+  border-top: 1px solid #ddd;
+  border-radius: 0 0 3px 3px;
+  background-color: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.13); }
+
+.SumoSelect > .optWrapper.multiple.isFloating > .MultiControls {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  margin-top: 5px; }
+
+.SumoSelect > .optWrapper.multiple.okCancelInMulti > .MultiControls {
+  display: block; }
+
+.SumoSelect > .optWrapper.multiple.okCancelInMulti > .MultiControls > p {
+  padding: 6px; }
+
+.SumoSelect > .optWrapper.multiple > .MultiControls > p {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 12px;
+  cursor: pointer;
+  text-align: center; }
+
+.SumoSelect > .optWrapper.multiple > .MultiControls > p:hover {
+  background-color: #f1f1f1; }
+
+.SumoSelect > .optWrapper.multiple > .MultiControls > p.btnOk {
+  border-right: 1px solid #dbdbdb;
+  border-radius: 0 0 0 3px; }
+
+.SumoSelect > .optWrapper.multiple > .MultiControls > p.btnCancel {
+  border-radius: 0 0 3px 0; }
+
+/*styling for select on popup mode*/
+.SumoSelect > .optWrapper.isFloating > .options > li {
+  padding: 12px 6px; }
+
+/*styling for only multiple select on popup mode*/
+.SumoSelect > .optWrapper.multiple.isFloating > .options > li {
+  padding-left: 35px; }
+
+.SumoSelect > .optWrapper.multiple.isFloating {
+  padding-bottom: 43px; }
+
+/*selected state
+    .SumoSelect > .optWrapper.multiple > .options > li.selected span i:after,
+    .SumoSelect .select-all.selected > span i:after{content: '';position: absolute;width: 11px;height: 11px;top: 2px;left: 2px;background-color: rgb(17, 169, 17);border-radius: 2px;box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);}
+    */
+.SumoSelect > .optWrapper.multiple > .options > li.selected span i,
+.SumoSelect .select-all.selected > span i,
+.SumoSelect .select-all.partial > span i {
+  border-color: transparent;
+  background-color: #11a911;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAYAAAD+Bd/7AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAABMSURBVAiZfc0xDkAAFIPhd2Kr1WRjcAExuIgzGUTIZ/AkImjSofnbNBAfHvzAHjOKNzhiQ42IDFXCDivaaxAJd0xYshT3QqBxqnxeHvhunpu23xnmAAAAAElFTkSuQmCC");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: none; }
+
+/*disabled state*/
+.SumoSelect.disabled {
+  cursor: not-allowed;
+  opacity: .7; }
+
+.SumoSelect.disabled > .CaptionCont {
+  border-color: #ccc;
+  box-shadow: none; }
+
+/**Select all button**/
+.SumoSelect .select-all {
+  position: relative;
+  height: 20px;
+  padding: 8px 0 3px 35px;
+  border-bottom: 1px solid #ddd;
+  border-radius: 3px 3px 0 0;
+  background-color: #fff; }
+
+.SumoSelect .select-all > span i {
+  cursor: pointer; }
+
+.SumoSelect .select-all.partial > span i {
+  background-color: #ccc; }
+
+/*styling for optgroups*/
+.SumoSelect > .optWrapper > .options > li.optGroup {
+  padding-left: 5px;
+  text-decoration: underline; }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    text-align: center; }
+  .img-card-top {
+    width: 75%;
+    border-radius: 30px; }
+  .container {
+    width: 100%;
+    max-width: 100%; }
+  .card {
+    margin-bottom: 10px;
+    border-radius: 15px; }
+  .col-sm-6,
+  .col-md-6,
+  .col-xs-12,
+  form-check,
+  .endsection,
+  .submit-button {
+    text-align: center; }
+  .row {
+    padding-bottom: 20px; }
+  #progresscontainer {
+    background-color: rgba(237, 241, 241, 0.8); }
+  #badges {
+    text-align: center; }
+  .progress-bar {
+    text-shadow: 2px 2px 4px #000000; }
+  content-box {
+    margin: 15px; } }
